@@ -1,0 +1,24 @@
+{
+  "name": "smart-contract-watcher-chainstack",
+  "version": "1.0.0",
+  "description": "This simple project uses the Ethers.js library to examine blocks using the eth_getBlockReceipts method and extract data about newly deployed smart contracts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web3",
+    "ethers",
+    "chainstack",
+    "erigon",
+    "smart",
+    "contract",
+    "tool"
+  ],
+  "author": "Davide Zambiasi",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2"
+  }
+}
