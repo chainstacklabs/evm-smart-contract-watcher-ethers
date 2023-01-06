@@ -16,7 +16,7 @@ Project's structure:
 ```sh
     ├── Root directory
 		├── index.js
-            │   
+                │   
 		│── src
 		│   ├── analyzer.js
 		│ 	├── latestBlock.js
