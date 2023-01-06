@@ -4,7 +4,7 @@
   "description": "This simple project uses the Ethers.js library to examine blocks using the eth_getBlockReceipts method and extract data about newly deployed smart contracts.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [
     "web3",

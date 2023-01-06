@@ -16,28 +16,28 @@ const findSmartContract = async () => {
     // Convert the latest block to Hex
     const blockInHex = toHex(blockToAnalyze)
 
-    // Sometimes Erigon returns an invalid response, try/catch will tell you if something is wrong.
+    // Sometimes Erigon returns an invalid response; try/catch will tell you if something is wrong.
     try {
 
-    // Get the transaction receipts
-    const blockReceipt = await provider.send("eth_getBlockReceipts", [blockInHex]);
-    //console.log(blockReceipt);
+        // Get the transaction receipts
+        const blockReceipt = await provider.send("eth_getBlockReceipts", [blockInHex]);
+        //console.log(blockReceipt);
 
-    // Iterate over the transactions in the block
-    for (const tx of blockReceipt) {
-       
-       if (tx.contractAddress != null) {
+        // Iterate over the transactions in the block
+        for (const tx of blockReceipt) {
 
-        // This function parses and prints the result
-        parseTransaction(tx)
-       }
-    }
+            if (tx.contractAddress != null) {
+
+                // This function parses and prints the result
+                parseTransaction(tx)
+            }
+        }
     } catch (error) {
-        console.log(`An error occured, please try again. \n ERROR: ${error}`)
+        console.log(`An error occurred, please try again. \n ERROR: ${error}`)
     }
-  }
+}
 
 
-  module.exports = {
+module.exports = {
     findSmartContract
 }
