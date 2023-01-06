@@ -1,9 +1,9 @@
 const ethers = require('ethers');
 require('dotenv').config();
 
-const { toHex } = require('../utils/toHex')
-const { latestBlock } = require('../utils/latestBlock')
-const { parseTransaction } = require('../utils/parser')
+const { toHex } = require('./toHex')
+const { latestBlock } = require('./latestBlock')
+const { parseTransaction } = require('./parser')
 
 const findSmartContract = async () => {
 
