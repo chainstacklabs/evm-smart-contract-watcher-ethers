@@ -32,7 +32,7 @@ Project's structure:
 
 The system requires at least:
 
-* Node.js v16.17.0— [install node](https://nodejs.org/en/download/)
+* Node.js v16.17.0— [install Node](https://nodejs.org/en/download/)
 
 ### Deploy an Erigon node with Chainstack
 
