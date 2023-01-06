@@ -34,6 +34,30 @@ The system requires at least:
 
 * Node.js v16.17.0— [install node](https://nodejs.org/en/download/)
 
+### Deploy an Erigon node with Chainstack
+
+> To use this app, you need access to a node running the Erigon client.
+
+Chainstack supports the Erigon client on **Ethereum,** **Polygon, and BNB smart chain** [archive nodes](https://chainstack.com/evm-nodes-a-dive-into-the-full-vs-archive-mode/). This option is available on the [Business subscription plan](https://chainstack.com/pricing/) and higher on elastic nodes or starting from the [Growth subscription plan](https://chainstack.com/pricing/) for dedicated nodes.
+
+Follow the steps to deploy an archive node running Erigon on elastic nodes:
+
+1. [Sign up with Chainstack](https://console.chainstack.com/user/account/create)
+2. [Create a project](https://docs.chainstack.com/platform/create-a-project)
+
+After you created a project:
+
+1. Select the project with the network.
+2. Select the network.
+3. Click **Add node**.
+4. Provide a node name.
+5. Under **Type**, select **Elastic**.
+6. Under **Mode**, select **Archive**. With an archive node, you can query historical states for the entire chain.
+7. Under **Debug and trace APIs**, select **On**.
+8. Under **Hosting**, select **Chainstack**.
+9. For Chainstack hosting, select a cloud provider and a region.
+10. Review your changes and click **Add node**.
+
 ### Clone this project
 
 ```sh
