@@ -3,13 +3,10 @@
  * Then we export an object that contains the toHex latestBlock.
  */
 
-const ethers = require('ethers');
-require('dotenv').config();
+
+const provider = require('./provider');
 
 async function latestBlock() {
-    
-    const node_url = process.env.ERIGON_RPC
-    const provider = new ethers.providers.JsonRpcProvider(node_url);
 
     const block_Number = await provider.getBlockNumber();
     return block_Number

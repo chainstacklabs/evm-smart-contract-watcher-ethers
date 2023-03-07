@@ -4,10 +4,10 @@
 
 async function parseTransaction(tx) {
     
-console.log(`New smart contract detected! \n`)
+console.log(`New smart contract detected!`)
 console.log(`New smart contract address: ${tx.contractAddress}`)
 console.log(`Deployed by address: ${tx.from}`)
-console.log(`Deployed by transaction: ${tx.transactionHash}`)
+console.log(`Deployed by transaction: ${tx.transactionHash}\n`)
 
 }
 

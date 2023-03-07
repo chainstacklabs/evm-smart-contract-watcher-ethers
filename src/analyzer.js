@@ -1,14 +1,9 @@
-const ethers = require('ethers');
-require('dotenv').config();
-
+const provider = require('./provider');
 const { toHex } = require('./toHex')
 const { latestBlock } = require('./latestBlock')
 const { parseTransaction } = require('./parser')
 
 const findSmartContract = async () => {
-
-    const node_url = process.env.ERIGON_RPC
-    const provider = new ethers.providers.JsonRpcProvider(node_url);
 
     // Find the latest block
     const blockToAnalyze = await latestBlock();
