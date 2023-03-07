@@ -34,22 +34,6 @@ This program uses the `ethers.js` library to retrieve all of the transaction rec
 
 > This project is compatible with EVM-based chains and queryng a node running the Erigon client.
 
-Project's structure:
-
-```sh
-    ├── Root directory
-		├── index.js
-                │   
-		│── src
-                  │   ├── provider.js
-		│     ├── analyzer.js
-		│ 	├── latestBlock.js
-		│ 	├── parser.js
-		│ 	├── ToHex.js
-		│  
-		├──.env
-```
-
 ## Quickstart
 
 ### Clone this project
