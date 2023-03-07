@@ -41,7 +41,7 @@ Project's structure:
 		├── index.js
                 │   
 		│── src
-    │   ├── provider.js
+                │   ├── provider.js
 		│   ├── analyzer.js
 		│ 	├── latestBlock.js
 		│ 	├── parser.js
