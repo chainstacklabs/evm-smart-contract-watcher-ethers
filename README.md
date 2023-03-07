@@ -41,6 +41,7 @@ Project's structure:
 		├── index.js
                 │   
 		│── src
+    │   ├── provider.js
 		│   ├── analyzer.js
 		│ 	├── latestBlock.js
 		│ 	├── parser.js
@@ -88,11 +89,10 @@ npm run start
 This will run the app giving you the following results in the console if new smart contracts are detected.
 
 ```sh
-> smart-contract-watcher-chainstack@1.0.0 watch
+> smart-contract-watcher-chainstack@1.0.0 start
 > node index.js
 
 New smart contract detected! 
-
 New smart contract address: 0x00e9a503b88732ee3e28a0fec3343c405f5e963d
 Deployed by address: 0x984380fc12cc3bdb894e1f35111dd992fb52a231
 Deployed by transaction: 0xad8d3a6647a4ad7e2f8eedef258b4c3233d54e5999a855ca59500f5df70d35de
