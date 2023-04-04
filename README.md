@@ -25,7 +25,7 @@
 
  This simple project uses the Ethers.js library to examine blocks using the `eth_getBlockReceipts` method and extract data about newly deployed smart contracts.
 
-Read the full article on the [Chainstack](https://chainstack.com) blog:
+Read the full article on the Chainstack Developer Portal:
  * [Uncovering the Power of eth_getBlockReceipts](https://docs.chainstack.com/docs/uncovering-the-power-of-ethgetblockreceipts)
 
  ## Project details
