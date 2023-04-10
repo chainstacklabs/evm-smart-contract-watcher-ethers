@@ -89,11 +89,6 @@ The system requires at least:
 * Node.js v16.17.0— [install Node](https://nodejs.org/en/download/)
 * An Erigon RPC endpoint with Chainstack
 
-### Dependecies
-
-* `dotenv`: `^16.0.3`
-* `ethers`: `^5.7.2`
-
 ### Deploy an Erigon node with Chainstack
 
 > To use this app, you need access to a node running the Erigon client.
